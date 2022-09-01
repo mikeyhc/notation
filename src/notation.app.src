@@ -1,0 +1,15 @@
+{application, notation,
+ [{description, "A note aggregation system"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {notation_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["The Unlicense"]},
+  {links, []}
+ ]}.
